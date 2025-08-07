@@ -29,7 +29,7 @@
 			<plugin>
   <groupId>org.mule.tools.maven</groupId>
   <artifactId>mule-maven-plugin</artifactId>
-  <version>3.7.1</version>
+  <version>3.9.10</version>
   <extensions>true</extensions>
   <configuration>
     <cloudhub2Deployment>
