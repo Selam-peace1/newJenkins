@@ -6,7 +6,7 @@
 
 	<groupId>bfd796e9-e4a1-4776-a60b-813736e91d99</groupId>
 	<artifactId>forjenkins</artifactId>
-	<version>1.0.2</version>
+	<version>1.0.3</version>
 	<packaging>mule-application</packaging>
 	<name>forjenkins</name>
 	<properties>
