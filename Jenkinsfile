@@ -19,7 +19,7 @@ pipeline {
         stage('Deploy to Cloudhub') {
             steps {
                 echo 'Deploying to Cloudhub...'
-                bat 'mvn mule:deploy -DmuleDeploy -DmuleVersion=4.9.0 -Dusername=Selam-New -Dpassword=Selamet@123 -DworkerType=Micro -Dworkers=1 -Dregion=US-East-2'
+                bat 'mvn package deploy -DmuleDeploy -DmuleVersion=4.9.0 -Dusername=Selam-New -Dpassword=Selamet@123 -DworkerType=Micro -Dworkers=1 -Dregion=US-East-2'
             }
         }
     }
